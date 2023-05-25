@@ -1,4 +1,4 @@
-"""Рефакторинг скрипта adu"""
+"""test"""
 from app_config_class import Config
 from utils import create_directory, send_credentials, send_extra, export_results, set_ldap_password
 from app_logger import create_logger, logger_level_change
