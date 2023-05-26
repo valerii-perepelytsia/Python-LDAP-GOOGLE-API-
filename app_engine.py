@@ -119,7 +119,7 @@ if __name__ == '__main__':
                     elif args.command == 'test':
                         print("test")
                         SCRIPT_CONFIG.fetch_varus_bot_response()
-                        SCRIPT_CONFIG.post_client_message("+380982986053", "test", "test")
+                        SCRIPT_CONFIG.post_client_message("+380", "test", "test")
                     elif args.command == 'start':
                         if args.exclude != 'gmail':
                             # --- BEGIN Create requests Google ---
